@@ -1,0 +1,7 @@
+[submodule "bitmasking"]
+	path = bitmasking
+	url = https://github.com/parthsarthiprasad/bitmasking
+	branch = master
+[submodule "dp"]
+	path = dp
+	url = https://github.com/parthsarthiprasad/dynamic_programming
