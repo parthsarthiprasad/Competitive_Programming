@@ -30,12 +30,22 @@ int findoptimumsol(map<int,int> table,int len,int n){
         }
     }
     
-    for(int i=0;i<=len;i++){
-        for(int j=0;j<=n;j++)
-            cout<<dp[i][j]<<" ";
-        cout<<endl;
-    }
+    // for(int i=0;i<=len;i++){
+    //     for(int j=0;j<=n;j++)
+    //         cout<<dp[i][j]<<" ";
+    //     cout<<endl;
+    // }
 
+    // PRINTING THE SELECTED NUMBERS
+    //cout<<it->first<<endl;
+    int i=len , j = n;
+    while(i>0&&j>0){
+        while(dp[i-1][j]==dp[i][j]){
+            i--;it--;}
+        cout<<it->first<<" -> ";
+        j=j-it->first;
+    }
+    cout<<endl;
     return dp[len][n];
 }
 int main(){
