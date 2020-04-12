@@ -1,0 +1,3 @@
+/home/parthsarthiprasad/Desktop/github/dp_practice/build/CMakeFiles/rebuild_cache.dir
+/home/parthsarthiprasad/Desktop/github/dp_practice/build/CMakeFiles/ugly_number_simple.dir
+/home/parthsarthiprasad/Desktop/github/dp_practice/build/CMakeFiles/edit_cache.dir
